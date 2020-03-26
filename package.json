@@ -34,14 +34,17 @@
     "@babel/preset-react": "^7.9.4",
     "babel-loader": "^8.1.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.0.1"
   },
-  "standard" : {
-   "ignore": [
-       "/api/**"
-   ]
+  "standard": {
+    "ignore": [
+      "/api/**"
+    ]
   },
   "eslintConfig": {
-      "extends": ["./node_modules/standard/eslintrc.json"]
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
   }
 }
