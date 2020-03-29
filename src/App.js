@@ -1,9 +1,9 @@
 import React from 'react'
-import { ListOfCategories } from './components/ListOfCategories'
 import { GlobalStyles } from './styles/GlobalStyles'
-import { ListOfPhotoCards } from './container/ListOfPhotoCards'
 import { PhotoCardByQuery } from './container/PhotoCardByQuery'
 import { Logo } from './components/Logo'
+import { Home } from './pages/Home'
+import { Router } from '@reach/router'
 
 export const App = () => {
   const urlParams = new window.URLSearchParams(window.location.search)
@@ -15,10 +15,10 @@ export const App = () => {
       {
         detailId
           ? <PhotoCardByQuery id={detailId} />
-          : <>
-            <ListOfCategories />
-            <ListOfPhotoCards categoryId={2} />
-            </>
+          : <Router>
+            <Home path='/' />
+            <Home path='/pet/:id' />
+            </Router>
       }
     </>
   )
