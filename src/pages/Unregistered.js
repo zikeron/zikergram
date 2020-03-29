@@ -8,7 +8,10 @@ export const Unregistered = () => {
       {
         ({ activateAuth }) => {
           return (
-            <UserForm onSubmit={activateAuth} />
+            <>
+            <UserForm onSubmit={activateAuth} title='Registrate' />
+            <UserForm onSubmit={activateAuth} title='Inicia Sesión' />
+            </>
           )
         }
       }
