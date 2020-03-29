@@ -17,7 +17,7 @@ export const PhotoCard = ({ id, likes = 0, src = DEFAULT_IMAGE }) => {
       {
         show &&
           <>
-            <a href={`/detail/${id}`}>
+            <a href={`/?detail=${id}`}>
               <ImageWrapper>
                 <Img src={src} alt='Cover image' />
               </ImageWrapper>
