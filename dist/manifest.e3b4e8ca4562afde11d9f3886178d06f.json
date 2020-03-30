@@ -1,0 +1,42 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.74d54640f1675431d2593f6c6c6d1201.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.62aebc0a274c7d0bcf1a30d8a7818559.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_256x256.96d21ef415630f283a745f8eb001e498.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.9eabf2c4034ffdbc297620dc8539165b.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.ca4c97c2e38fdbef28331c217333c898.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.614cda8412b27efc8d75fae19cbeb5d6.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Zikergram 😎",
+  "short_name": "Zikergram",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Con zikergram puedes compartir todas las fotos de tus mascotas",
+  "background_color": "#fff",
+  "theme_color": "#49a8de"
+}
