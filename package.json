@@ -8,7 +8,8 @@
     "build": "webpack",
     "dev": "webpack-dev-server",
     "lint": "standard",
-    "now-build": "npm run build"
+    "now-build": "npm run build",
+    "serve:dev": "webpack --mode 'development' && npx serve dist -s"
   },
   "repository": {
     "type": "git",
